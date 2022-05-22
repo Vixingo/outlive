@@ -5,7 +5,7 @@ import NewsBox from "./NewsBox";
 function Whatnew() {
     return (
         <>
-            <div className="Whatnew" style={{ margin: "100px auto" }}>
+            <div className="Whatnew" id="Whatnew">
                 <div className="container">
                     <div className="row">
                         <Typography

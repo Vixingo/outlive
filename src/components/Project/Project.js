@@ -11,7 +11,7 @@ function Project() {
     // http://img.youtube.com/vi/[video-id]/maxresdefault.jpg
     return (
         <>
-            <div className="Project" style={{ margin: "100px auto" }}>
+            <div className="Project" id="Project">
                 <Typography
                     sx={{
                         color: "#fff",

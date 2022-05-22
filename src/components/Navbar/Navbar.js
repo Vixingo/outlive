@@ -33,18 +33,18 @@ function Navbar() {
                                     <a
                                         className="nav-link "
                                         aria-current="page"
-                                        href="#"
+                                        href="#Whatnew"
                                     >
                                         NOVIDADES
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">
+                                    <a className="nav-link" href="#Project">
                                         PROJETO
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">
+                                    <a className="nav-link" href="#Highlight">
                                         DESTAQUES
                                     </a>
                                 </li>

@@ -1,12 +1,15 @@
 .Project {
     background-image: url(../../../public/img/projectbg.png);
+    padding-top: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .main_video {
     max-width: 1145px;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    padding-top: 50%;
+    padding-top: 40%;
 }
 .main_video iframe {
     position: absolute;
@@ -61,18 +64,55 @@
     .Project .container {
         max-width: 1400px;
     }
+    .main_video {
+        padding-top: 65%;
+    }
 }
 @media (max-width: 1400px) {
     .Project .container {
         max-width: 1200px;
     }
 }
-
+/* 
 @media (max-width: 1145px) {
     .main_video {
-        padding-top: 56.25%;
+        padding-top: 66.25%;
     }
+
     .main_video iframe {
+        width: 100%;
         height: 100%;
+    }
+} */
+@media (max-width: 1145px) {
+    .main_video {
+        padding: 36%;
+    }
+}
+@media (max-width: 1024px) {
+    .main_video iframe {
+        width: 95%;
+        height: 75%;
+    }
+    .main_video .card_iframe {
+        height: 640px;
+    }
+    .main_video {
+        padding: 36%;
+    }
+}
+@media (max-width: 820px) {
+    .main_video .card_iframe {
+        height: 515px;
+    }
+}
+@media (max-width: 768px) {
+    .main_video .card_iframe {
+        height: 475px;
+    }
+}
+@media (max-width: 575px) {
+    .main_video .card_iframe {
+        height: 85%;
     }
 }

@@ -4,7 +4,7 @@ import "./Highlight.css";
 function Highlight() {
     return (
         <>
-            <div className="Highlight">
+            <div className="Highlight" id="Highlight">
                 <Typography
                     sx={{
                         color: "#fff",
@@ -77,7 +77,7 @@ function Highlight() {
                                         marginBottom: "22px",
                                     }}
                                 >
-                                    ESTRATÉGIAS DIVERSAS
+                                    RAÇAS DIFERENCIADAS{" "}
                                 </Typography>
                                 <Typography
                                     sx={{
@@ -90,11 +90,11 @@ function Highlight() {
                                         margin: "0 auto",
                                     }}
                                 >
-                                    Outlive é um jogo de estratégia em tempo
-                                    real onde você comanda suas tropas através
-                                    de incríveis cenários. Combine várias
-                                    táticas de ataque e surpreenda seus inimigos
-                                    na luta pela supremacia.
+                                    Duas raças que possuem unidades,
+                                    tecnologias, espionagem e energia
+                                    diferenciadas, oferecendo uma enorme
+                                    quantidade de estratégias e alternativas
+                                    para o jogador.
                                 </Typography>
                             </div>
                         </div>

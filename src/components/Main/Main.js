@@ -8,13 +8,26 @@ function Main() {
     const handleClose = () => setOpen(false);
     return (
         <>
-            <div className="Main" style={{ paddingTop: "100px" }}>
-                <div className="container">
+            <div className="Main" style={{ paddingTop: "85px" }}>
+                <div>
                     <div className="main_logo">
                         <img src="img/logo.png" alt="" width={"100%"} />
                     </div>
-                    <div className="main_img">
+                    {/* <div className="main_img">
                         <img src="img/main.png" alt="" width={"100%"} />
+                    </div> */}
+                    <div className="hero_video">
+                        <video
+                            class="top_video"
+                            src="img/top.mp4"
+                            autoPlay="true"
+                            loop="true"
+                        ></video>
+                        <img
+                            className="card_iframe"
+                            src="img/main_video_frame.png"
+                            alt=""
+                        />
                     </div>
                     <div className="main_btn_group">
                         <div className="row">
@@ -46,29 +59,33 @@ function Main() {
                                 <p>Assista ao trailer do Outlive</p>
                             </div>
                             <div className="col-md-6">
-                                <Button
-                                    className="main_btn2"
-                                    sx={{
-                                        color: "#fff",
-                                        fontSize: "18px",
-                                        fontFamily: "gameplay",
-                                        maxWidth: "400px",
-                                        transition: ".2s",
-                                        height: "65px",
-                                        width: "100%",
-                                        backgroundImage: "url(img/btnbg.png)",
-                                        backgroundSize: "100% 100%",
-                                        backgroundRepeat: "no-repeat",
-                                        "&:hover": {
-                                            textShadow: "0 3px 3px #FDDA2D",
-                                            boxShadow:
-                                                "0 0.5em 0.5em -0.4em #ffa300",
-                                            // transform: "translateY(-0.25em)",
-                                        },
-                                    }}
-                                >
-                                    Projeto outlive
-                                </Button>
+                                <a href="#Project">
+                                    {" "}
+                                    <Button
+                                        className="main_btn2"
+                                        sx={{
+                                            color: "#fff",
+                                            fontSize: "18px",
+                                            fontFamily: "gameplay",
+                                            maxWidth: "400px",
+                                            transition: ".2s",
+                                            height: "65px",
+                                            width: "100%",
+                                            backgroundImage:
+                                                "url(img/btnbg.png)",
+                                            backgroundSize: "100% 100%",
+                                            backgroundRepeat: "no-repeat",
+                                            "&:hover": {
+                                                textShadow: "0 3px 3px #FDDA2D",
+                                                boxShadow:
+                                                    "0 0.5em 0.5em -0.4em #ffa300",
+                                                // transform: "translateY(-0.25em)",
+                                            },
+                                        }}
+                                    >
+                                        Projeto outlive
+                                    </Button>
+                                </a>
                                 <p>Saiba mais sobre o projeto</p>
                             </div>
                         </div>
