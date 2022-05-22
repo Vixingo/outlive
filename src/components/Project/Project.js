@@ -64,6 +64,13 @@ function Project() {
                                         opacity: "0.5",
                                         textAlign: "center",
                                         padding: "20px",
+                                        "@media(max-width:1399px)": {
+                                            fontSize: "18px",
+                                        },
+                                        "@media(max-width:991px)": {
+                                            fontSize: "14px",
+                                            padding: "10px",
+                                        },
                                     }}
                                 >
                                     Veja mais informações sobre o relançamento
@@ -97,6 +104,13 @@ function Project() {
                                         opacity: "0.5",
                                         textAlign: "center",
                                         padding: "20px",
+                                        "@media(max-width:1399px)": {
+                                            fontSize: "18px",
+                                        },
+                                        "@media(max-width:991px)": {
+                                            fontSize: "14px",
+                                            padding: "10px",
+                                        },
                                     }}
                                 >
                                     Conheça as adaptações e a plataforma
@@ -130,6 +144,13 @@ function Project() {
                                         opacity: "0.5",
                                         textAlign: "center",
                                         padding: "20px",
+                                        "@media(max-width:1399px)": {
+                                            fontSize: "18px",
+                                        },
+                                        "@media(max-width:991px)": {
+                                            fontSize: "14px",
+                                            padding: "10px",
+                                        },
                                     }}
                                 >
                                     Saiba como será viabilizado o

@@ -38,6 +38,13 @@ function Highlight() {
                                         color: "#fff",
                                         textAlign: "center",
                                         marginBottom: "22px",
+                                        "@media(max-width:1399px)": {
+                                            fontSize: "30px",
+                                        },
+                                        "@media(max-width:991px)": {
+                                            marginBottom: "12px",
+                                            fontSize: "24px",
+                                        },
                                     }}
                                 >
                                     ESTRATÉGIAS DIVERSAS
@@ -51,6 +58,12 @@ function Highlight() {
                                         textAlign: "center",
                                         maxWidth: "800px",
                                         margin: "0 auto",
+                                        "@media(max-width:1399px)": {
+                                            fontSize: "20px",
+                                        },
+                                        "@media(max-width:991px)": {
+                                            fontSize: "14px",
+                                        },
                                     }}
                                 >
                                     Outlive é um jogo de estratégia em tempo
@@ -75,6 +88,13 @@ function Highlight() {
                                         color: "#fff",
                                         textAlign: "center",
                                         marginBottom: "22px",
+                                        "@media(max-width:1399px)": {
+                                            fontSize: "30px",
+                                        },
+                                        "@media(max-width:991px)": {
+                                            marginBottom: "12px",
+                                            fontSize: "24px",
+                                        },
                                     }}
                                 >
                                     RAÇAS DIFERENCIADAS{" "}
@@ -88,6 +108,12 @@ function Highlight() {
                                         textAlign: "center",
                                         maxWidth: "800px",
                                         margin: "0 auto",
+                                        "@media(max-width:1399px)": {
+                                            fontSize: "20px",
+                                        },
+                                        "@media(max-width:991px)": {
+                                            fontSize: "14px",
+                                        },
                                     }}
                                 >
                                     Duas raças que possuem unidades,

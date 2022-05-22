@@ -1,4 +1,4 @@
-import { Button, Typography } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import React from "react";
 import { IconButton, Stack } from "@mui/material";
 import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
@@ -11,7 +11,7 @@ function Footer() {
             <div className="Footer" style={{ marginBottom: "50px" }}>
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-md-4">
+                        <div className="col-lg-4 mb-4 mb-lg-0">
                             <div className="email">
                                 <Typography
                                     sx={{
@@ -20,6 +20,12 @@ function Footer() {
                                         color: "#fff",
                                         fontSize: "22px",
                                         margin: "20px auto",
+                                        "@media(max-width:1399px)": {
+                                            fontSize: "16px",
+                                        },
+                                        "@media(max-width:991px)": {
+                                            textAlign: "center",
+                                        },
                                     }}
                                 >
                                     Cadastre seu e-mail e receba a nossa
@@ -55,7 +61,7 @@ function Footer() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-lg-4">
                             <Typography
                                 sx={{
                                     color: "#fff",
@@ -100,18 +106,80 @@ function Footer() {
                                 </Stack>
                             </div>
                         </div>
-                        <div className="col-md-4 align-self-center">
+                        <div className="col-lg-4 align-self-center">
                             <div className="email">
-                                <div className="link_box">
-                                    <a href="#">Política de Privacidade</a>
-                                    <a href="#">Termos de uso</a>
-                                </div>
+                                <Box
+                                    className="link_box"
+                                    sx={{
+                                        display: "flex",
+                                        justifyContent: "space-evenly",
+                                        "@media(max-width:991px)": {
+                                            margin: "10px auto",
+                                            justifyContent: "center",
+                                            alignItems: "center",
+                                            flexDirection: "column",
+                                        },
+                                    }}
+                                >
+                                    <a href="#">
+                                        <Typography
+                                            sx={{
+                                                color: "#FFF",
+                                                textDecoration: "none",
+                                                fontSize: "20px",
+                                                transition: ".2s",
+                                                fontFamily: "neulis",
+                                                "&::hover": {
+                                                    textShadow:
+                                                        "0 0px 3px #feee3c, 0 0px 30px #feee3c, 0 0px 50px #feee3c,  0 0px 100px #feee3c",
+                                                },
+                                                "@media(max-width:1399px)": {
+                                                    fontSize: "14px",
+                                                },
+                                                "@media(max-width:991px)": {
+                                                    fontSize: "12px",
+                                                },
+                                            }}
+                                        >
+                                            Política de Privacidade
+                                        </Typography>
+                                    </a>
+                                    <a href="#">
+                                        <Typography
+                                            sx={{
+                                                color: "#FFF",
+                                                textDecoration: "none",
+                                                fontFamily: "neulis",
+                                                fontSize: "20px",
+                                                transition: ".2s",
+                                                "&::hover": {
+                                                    textShadow:
+                                                        "0 0px 3px #feee3c, 0 0px 30px #feee3c, 0 0px 50px #feee3c,  0 0px 100px #feee3c",
+                                                },
+                                                "@media(max-width:1399px)": {
+                                                    fontSize: "14px",
+                                                },
+                                                "@media(max-width:991px)": {
+                                                    fontSize: "12px",
+                                                },
+                                            }}
+                                        >
+                                            Termos de uso{" "}
+                                        </Typography>
+                                    </a>
+                                </Box>
                                 <Typography
                                     sx={{
                                         color: "#fff",
                                         fontSize: "20px",
                                         fontFamily: "neulis",
                                         textAlign: "center",
+                                        "@media(max-width:1399px)": {
+                                            fontSize: "14px",
+                                        },
+                                        "@media(max-width:991px)": {
+                                            fontSize: "12px",
+                                        },
                                     }}
                                 >
                                     © 2022 Continuum Entertaunment. All rights

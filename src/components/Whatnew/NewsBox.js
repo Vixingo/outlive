@@ -20,6 +20,13 @@ function NewsBox({ news_header, news_tittle, news_date, news_img }) {
                             color: "#fff",
                             textAlign: "center",
                             padding: "22px",
+                            "@media(max-width:1399px)": {
+                                fontSize: "18px",
+                            },
+                            "@media(max-width:991px)": {
+                                fontSize: "14px",
+                                padding: "10px",
+                            },
                         }}
                     >
                         {news_tittle}
@@ -31,6 +38,12 @@ function NewsBox({ news_header, news_tittle, news_date, news_img }) {
                         fontFamily: "gameplay",
                         textAlign: "center",
                         color: "#fff",
+                        "@media(max-width:1399px)": {
+                            fontSize: "12px",
+                        },
+                        "@media(max-width:991px)": {
+                            fontSize: "10px",
+                        },
                     }}
                 >
                     {news_date}
