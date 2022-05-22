@@ -1,0 +1,47 @@
+.NewsBox {
+    cursor: pointer;
+}
+.news_header span {
+    position: relative;
+    z-index: 2;
+}
+.news_header {
+    color: #090c0f;
+    font-size: 24px;
+    font-family: gameplay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 220px;
+    height: 50px;
+    clip-path: polygon(10% 0, 90% 0, 100% 30%, 85% 100%, 15% 100%, 0 30%);
+    background: linear-gradient(94.12deg, #faaf29 11.99%, #feee3c 98.61%);
+    position: relative;
+    top: 45px;
+}
+.news_header:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(94.12deg, #fb3602 11.99%, #ff987c 98.61%);
+    transition: all 0.35s;
+}
+
+.NewsBox:hover .news_header {
+    color: #fff;
+}
+
+.NewsBox:hover .news_header:after {
+    width: 100%;
+}
+.news_details {
+    transition: 0.3s;
+}
+.NewsBox:hover .news_details {
+    text-shadow: 0 0px 3px #feee3c, 0 0px 30px #feee3c, 0 0px 50px #feee3c,
+        0 0px 100px #feee3c;
+}

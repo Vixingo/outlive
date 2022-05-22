@@ -1,0 +1,78 @@
+.Project {
+    background-image: url(../../../public/img/projectbg.png);
+}
+.main_video {
+    max-width: 1145px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding-top: 50%;
+}
+.main_video iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 0;
+    right: 0;
+    width: 1066px;
+    height: 600px;
+    border: none;
+}
+.main_video .card_iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 670px;
+    border: none;
+    pointer-events: none;
+}
+/* .video_card {
+    background-image: url(../../../public/img/video_frame.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+} */
+.video_card {
+    width: 100%;
+    position: relative;
+}
+.card_img {
+    width: 100%;
+    position: relative;
+    object-fit: contain;
+}
+.card_frame {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+
+.Project .container {
+    max-width: 1600px;
+}
+@media (max-width: 1600px) {
+    .Project .container {
+        max-width: 1400px;
+    }
+}
+@media (max-width: 1400px) {
+    .Project .container {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 1145px) {
+    .main_video {
+        padding-top: 56.25%;
+    }
+    .main_video iframe {
+        height: 100%;
+    }
+}

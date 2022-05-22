@@ -1,0 +1,52 @@
+.game_img {
+    padding: 20px;
+}
+.Highlight {
+    background-image: url(../../../public/img/highlightbg.png);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: 100% 100%;
+}
+.high_row {
+    backdrop-filter: blur(50px);
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.5) 5.71%,
+        rgba(0, 0, 0, 0.4) 94.62%
+    );
+}
+.high_container {
+    margin: 80px auto;
+}
+.email {
+    max-width: 535px;
+    margin: 0 auto;
+}
+.email_box {
+    display: flex;
+}
+.email_box input {
+    flex: 1;
+    border-radius: 25px;
+    text-align: center;
+    background-color: #9a9696;
+    backdrop-filter: blur(50px);
+    border: none;
+    height: 50px;
+    font-size: 16px;
+    color: #000;
+}
+.link_box {
+    display: flex;
+    justify-content: space-evenly;
+}
+.link_box a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.2s;
+}
+.link_box a:hover {
+    text-shadow: 0 0px 3px #feee3c, 0 0px 30px #feee3c, 0 0px 50px #feee3c,
+        0 0px 100px #feee3c;
+}

@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+    font-family: gameplay;
+    src: url(./fonts/Gameplay.ttf);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+    font-family: neulis;
+    src: url(./fonts/NeulisAlt-Regular.otf);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+    font-family: "neulis";
+    overflow-x: hidden;
+    background-color: #000;
 }
-
-.App-link {
-  color: #61dafb;
+a {
+    color: unset;
+    text-decoration: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* navbar */
+.nav-link {
+    font-size: 18px;
+    color: #fff !important;
+    transition: 0.2s;
+    font-family: "gameplay";
+}
+.nav-link:hover {
+    text-shadow: 0 0px 3px #feee3c, 0 0px 50px #feee3c, 0 0px 70px #feee3c;
+}
+.Navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 111;
+    background: rgba(255, 255, 255, 0.1);
+}
+.navbar {
+    height: 80px;
+}
+.main_logo {
+    max-width: 400px;
+    margin: 30px auto;
+}
+input:focus-visible {
+    outline: none;
 }
