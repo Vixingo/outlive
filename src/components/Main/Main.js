@@ -1,6 +1,7 @@
 import { Box, Button, Typography, Modal } from "@mui/material";
 import React from "react";
 import "./Main.css";
+import { motion } from "framer-motion";
 
 function Main() {
     const [open, setOpen] = React.useState(false);
@@ -10,9 +11,18 @@ function Main() {
         <>
             <div className="Main" style={{ paddingTop: "85px" }}>
                 <div>
-                    <div className="main_logo">
+                    <motion.div
+                        className="main_logo"
+                        initial={{ opacity: 0, y: -100 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{
+                            delay: 0.5,
+                            duration: 0.5,
+                            type: "spring",
+                        }}
+                    >
                         <img src="img/logo.png" alt="" width={"100%"} />
-                    </div>
+                    </motion.div>
                     {/* <div className="main_img">
                         <img src="img/main.png" alt="" width={"100%"} />
                     </div> */}

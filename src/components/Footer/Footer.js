@@ -5,6 +5,7 @@ import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import { motion } from "framer-motion";
 function Footer() {
     return (
         <>
@@ -83,8 +84,9 @@ function Footer() {
                                             background:
                                                 "  rgba(255, 255, 255, 0.15)",
                                             color: "#fff",
-                                            transition: "0.2s",
+                                            transition: "0.3s",
                                             "&:hover": {
+                                                scale: "1.2",
                                                 background:
                                                     "linear-gradient(94.12deg, #FB3602 11.99%, #FF987C 98.61%)",
                                             },
@@ -94,6 +96,7 @@ function Footer() {
                                     <IconButton>
                                         <TwitterIcon />{" "}
                                     </IconButton>
+
                                     <IconButton>
                                         <FacebookRoundedIcon />{" "}
                                     </IconButton>

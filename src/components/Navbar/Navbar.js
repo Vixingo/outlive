@@ -58,8 +58,9 @@ function Navbar() {
                                             background:
                                                 "  rgba(255, 255, 255, 0.15)",
                                             color: "#fff",
-                                            transition: "0.2s",
+                                            transition: "0.3s",
                                             "&:hover": {
+                                                scale: "1.1",
                                                 background:
                                                     "linear-gradient(94.12deg, #FB3602 11.99%, #FF987C 98.61%)",
                                             },
