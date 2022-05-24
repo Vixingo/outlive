@@ -39,19 +39,19 @@
     transform: translate(-50%, -50%);
     bottom: 0;
     right: 0;
-    width: 1066px;
-    height: 600px;
+    width: 93%;
+    height: auto;
     border: none;
 }
 .hero_video .card_iframe {
     position: absolute;
-    top: 50%;
+    top: 49%;
     left: 50%;
     transform: translate(-50%, -50%);
     bottom: 0;
     right: 0;
     width: 100%;
-    height: 670px;
+    height: 100%;
     border: none;
     pointer-events: none;
 }

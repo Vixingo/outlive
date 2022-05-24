@@ -13,7 +13,9 @@ function App() {
             <Box
                 sx={{
                     backgroundImage: "url(img/mainbg.png)",
-                    backgroundSize: "100% 100%",
+                    backgroundSize: "auto 100% ",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
                 }}
             >
                 <Navbar />
