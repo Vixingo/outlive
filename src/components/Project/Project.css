@@ -1,8 +1,10 @@
 .Project {
     background-image: url(../../../public/img/projectbg.png);
     padding-top: 100px;
+    padding-bottom: 100px;
     background-size: 100%;
     background-repeat: no-repeat;
+    position: relative;
 }
 .main_video {
     max-width: 1145px;
@@ -60,6 +62,7 @@
     position: relative;
     cursor: pointer;
 }
+
 .card_img {
     width: 100%;
     position: relative;
@@ -72,8 +75,8 @@
     left: 0;
 }
 
-.main_card p{
-    transition: .2s;
+.main_card p {
+    transition: 0.2s;
 }
 
 .main_card:hover p {
@@ -83,17 +86,25 @@
 .Project .container {
     max-width: 1600px;
 }
+.right_circuit {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
 @media (max-width: 1600px) {
     .Project .container {
         max-width: 1400px;
     }
     .main_video {
-        padding-top: 65%;
+        padding-top: 45%;
     }
 }
 @media (max-width: 1400px) {
     .Project .container {
         max-width: 1200px;
+    }
+    .main_video {
+        padding-top: 55%;
     }
 }
 /* 
@@ -109,7 +120,7 @@
 } */
 @media (max-width: 1145px) {
     .main_video {
-        padding: 36%;
+        padding: 32%;
     }
 }
 @media (max-width: 1024px) {

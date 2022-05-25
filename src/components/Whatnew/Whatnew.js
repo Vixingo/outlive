@@ -6,6 +6,11 @@ function Whatnew() {
     return (
         <>
             <div className="Whatnew" id="Whatnew">
+                <img
+                    src="img/left_circuit.gif"
+                    alt=""
+                    className="left_circuit"
+                />
                 <div className="container">
                     <div className="row">
                         <Typography

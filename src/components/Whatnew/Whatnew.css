@@ -1,6 +1,18 @@
 .Whatnew {
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 100px;
+    position: relative;
+}
+.left_circuit {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    -moz-user-select: none; /* Standard syntax */
+    user-select: none; /* Standard syntax */
+    z-index: -1;
 }
 .NewsBox {
     cursor: pointer;
@@ -9,6 +21,7 @@
     position: relative;
     z-index: 2;
 }
+
 .news_header {
     color: #090c0f;
     font-size: 24px;
@@ -48,4 +61,14 @@
 .NewsBox:hover .news_details {
     text-shadow: 0 0px 3px #feee3c, 0 0px 30px #feee3c, 0 0px 50px #feee3c,
         0 0px 100px #feee3c;
+}
+@media (max-width: 1279px) {
+    .left_circuit {
+        width: 35%;
+    }
+}
+@media (max-width: 575px) {
+    .Whatnew {
+        padding-top: 100px;
+    }
 }
