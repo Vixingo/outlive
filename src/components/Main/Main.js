@@ -9,7 +9,7 @@ function Main() {
     const handleClose = () => setOpen(false);
     return (
         <>
-            <div className="Main" style={{ paddingTop: "85px" }}>
+            <div className="Main" style={{ paddingTop: "80px" }}>
                 <div>
                     <motion.div
                         className="main_logo"
@@ -23,21 +23,18 @@ function Main() {
                     >
                         <img src="img/logo.png" alt="" width={"100%"} />
                     </motion.div>
-                    {/* <div className="main_img">
-                        <img src="img/main.png" alt="" width={"100%"} />
-                    </div> */}
+
                     <div className="hero_video">
                         <video
-                            class="top_video"
                             src="img/top.mp4"
                             autoPlay="true"
                             loop="true"
                         ></video>
-                        <img
+                        {/* <img
                             className="card_iframe"
                             src="img/main_video_frame.png"
                             alt=""
-                        />
+                        /> */}
                     </div>
                     <div className="main_btn_group">
                         <div className="row">
