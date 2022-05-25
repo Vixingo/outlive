@@ -11,6 +11,9 @@
     font-family: neulis;
     src: url(./fonts/NeulisAlt-Regular.otf);
 }
+html {
+    overflow-x: hidden;
+}
 body {
     font-family: "neulis";
     overflow-x: hidden;
@@ -35,15 +38,27 @@ a {
     width: 100%;
     top: 0;
     z-index: 111;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.4);
+    display: grid;
 }
 .navbar {
-    height: 80px;
+    padding-top: 18.5px;
+    padding-bottom: 18.5px;
 }
+
 .main_logo {
     max-width: 400px;
     margin: 20px auto;
 }
 input:focus-visible {
     outline: none;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+@media (max-width: 991px) {
+    .Navbar {
+        width: 100vw;
+    }
 }

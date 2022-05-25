@@ -25,11 +25,9 @@ function Main() {
                     </motion.div>
 
                     <div className="hero_video">
-                        <video
-                            src="img/top.mp4"
-                            autoPlay="true"
-                            loop="true"
-                        ></video>
+                        <video autoPlay="true" loop="true" muted="true">
+                            <source src="img/top.mp4" type="video/mp4" />
+                        </video>
                         {/* <img
                             className="card_iframe"
                             src="img/main_video_frame.png"

@@ -30,11 +30,11 @@ function Project() {
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen
                     ></iframe>
-                    <img
+                    {/* <img
                         className="card_iframe"
                         src="img/main_video_frame.png"
                         alt=""
-                    />
+                    /> */}
                 </div>
                 <div className="container">
                     <div className="row">

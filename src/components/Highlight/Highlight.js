@@ -77,7 +77,18 @@ function Highlight() {
                     </div>
                 </div>
                 <div className="high_container">
-                    <div className="row high_row">
+                    <div className="row high_row flex-row-reverse  ">
+                        <div className="col-md-6">
+                            <div className="container">
+                                <div className="game_img">
+                                    <img
+                                        src="img/game2.png"
+                                        width={"100%"}
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                        </div>
                         <div className="col-md-6 align-self-center">
                             <div className="container">
                                 <Typography
@@ -122,17 +133,6 @@ function Highlight() {
                                     quantidade de estratégias e alternativas
                                     para o jogador.
                                 </Typography>
-                            </div>
-                        </div>
-                        <div className="col-md-6">
-                            <div className="container">
-                                <div className="game_img">
-                                    <img
-                                        src="img/game2.png"
-                                        width={"100%"}
-                                        alt=""
-                                    />
-                                </div>
                             </div>
                         </div>
                     </div>
