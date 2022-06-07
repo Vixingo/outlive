@@ -101,24 +101,37 @@ function Main() {
                         aria-labelledby="modal-modal-title"
                         aria-describedby="modal-modal-description"
                     >
-                        <Box
-                            sx={{
-                                position: "absolute",
+                        <div
+                            style={{
+                                position: "relative",
+                                maxWidth: "80vw",
+                                height: "80vh",
+                                margin: "0 auto",
                                 top: "50%",
-                                left: "50%",
-                                transform: "translate(-50%, -50%)",
+                                transform: "translateY(-50%)",
                             }}
                         >
                             <iframe
-                                width="900"
-                                height="515"
-                                src="https://www.youtube.com/embed/h7MYJghRWt0?start=71"
+                                style={{
+                                    position: "relative",
+                                    top: 0,
+                                    left: 0,
+                                    right: 0,
+                                    bottom: 0,
+                                    width: "100%",
+                                    height: "100%",
+                                    margin: " 10px",
+                                    border: "none",
+                                }}
+                                src={
+                                    "https://www.youtube-nocookie.com/embed/h7MYJghRWt0"
+                                }
                                 title="YouTube video player"
                                 frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen
                             ></iframe>
-                        </Box>
+                        </div>
                     </Modal>
                 </div>
             </div>
