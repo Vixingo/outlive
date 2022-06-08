@@ -87,10 +87,14 @@
     max-width: 1600px;
 }
 .right_circuit {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: end;
 }
+.right_circuit img {
+    width: 35vw;
+}
+
 @media (max-width: 1600px) {
     .Project .container {
         max-width: 1400px;

@@ -160,6 +160,9 @@ function Project() {
                         </div>
                     </div>
                 </div>
+                <div className="right_circuit">
+                    <img src="img/right_circuit.gif" alt="" />
+                </div>
             </div>
         </>
     );
